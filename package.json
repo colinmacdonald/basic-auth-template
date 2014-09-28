@@ -1,0 +1,32 @@
+{
+  "name": "basic-auth-template",
+  "version": "0.0.1",
+  "description": "Basic auth template",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Colin MacDonald",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "0.8.0",
+    "body-parser": "1.9.0",
+    "connect-flash": "0.1.1",
+    "connect-pg-simple": "2.1.1",
+    "cookie-parser": "1.3.3",
+    "ejs": "1.0.0",
+    "express": "4.8.5",
+    "express-session": "1.8.2",
+    "helmet": "0.4.1",
+    "lodash": "2.4.1",
+    "passport": "0.2.1",
+    "passport-local": "1.0.0",
+    "pg": "3.4.5",
+    "redis": "0.12.1",
+    "scmp": "0.0.3",
+    "squel": "3.8.1"
+  },
+  "devDependencies": {
+    "migrate": "0.1.4"
+  }
+}
